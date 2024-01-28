@@ -1,11 +1,15 @@
-Bot de Aquecimento de WhatsApp
-Este repositório contém um script Python projetado para aquecer números de WhatsApp, simulando uma conversa entre dois números. O propósito é evitar possíveis banimentos ao enviar mensagens em larga escala no futuro.
+# WhatsApp Warm-up Bot
 
-Pré-requisitos e Configuração
-Antes de executar o script, certifique-se de ter Python, Selenium e o ChromeDriver instalados. Configure um arquivo Excel com os números de telefone no arquivo bot_numeros.xlsx e ajuste as mensagens no script conforme necessário.
+This repository contains a Python script designed to warm up WhatsApp numbers by simulating a conversation between two numbers. The purpose is to prevent potential bans when sending messages on a large scale in the future.
 
-Execução
-Execute bot_aquecimento_whatsapp.py para iniciar o script, que abrirá duas janelas do Chrome, enviando mensagens aleatórias entre os números fornecidos no Excel. O tempo entre as mensagens pode ser ajustado conforme necessário.
+## Prerequisites and Setup
 
-Personalização
-Personalize o script modificando as mensagens, ajustando tempos de espera e incorporando funcionalidades adicionais conforme necessário.
+Before running the script, make sure to have Python, Selenium, and ChromeDriver installed. Configure an Excel file with phone numbers in the file bot_numbers.xlsx and adjust the messages in the script as needed.
+
+## Execution
+
+Run bot_warmup_whatsapp.py to start the script, which will open two Chrome windows, sending random messages between the numbers provided in the Excel file. The time between messages can be adjusted as needed.
+
+## Customization
+
+Personalize the script by modifying messages, adjusting waiting times, and incorporating additional functionalities as needed.
